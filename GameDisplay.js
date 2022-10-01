@@ -65,14 +65,14 @@ const StarsDisplay = props => (
     };
   
     const onNumberClick = (number, currentStatus) => {
-      if (currentStatus === 'used' || gameStatus === 'lost') {
+        if (currentStatus === 'used' || gameStatus === 'lost') {
         return;
       }
   
-          const newCandidateNums =
-        currentStatus === 'available'
-          ? candidateNums.concat(number)
-          : candidateNums.filter(cn => cn !== number);
+        const newCandidateNums = 
+            currentStatus === 'available'
+            ? candidateNums.concat(number)
+            : candidateNums.filter(cn => cn !== number);
   
       if (utils.sum(newCandidateNums) !== stars) {
         setCandidateNums(newCandidateNums);
