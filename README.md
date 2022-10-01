@@ -19,4 +19,18 @@ The selection can be either a combination of buttons or just one button. e.g. th
 
 # Screenshots from the game
 
+Start of the game
 
+![alt text](/screenshots/Screenshot%202022-10-01%20at%2013.55.43.png "start of the game")
+
+Example of a wrong selection
+
+![Alt text](/screenshots/Screenshot%202022-10-01%20at%2013.56.16.png?raw=true "wrong selection")
+
+Example of selecting a combination of buttons where correct partial selection is highlighted blue
+
+![Alt text](/screenshots/Screenshot%202022-10-01%20at%2013.56.00.png?raw=true "partial correct selection")
+
+Message to inform the user has lost the game
+
+![Alt text](/screenshots/Screenshot%202022-10-01%20at%2013.40.34.png?raw=true "partial correct selection")
