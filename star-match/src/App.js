@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './styles/index.css'
 import './App.css';
 import React, {useState, useEffect} from "react";
@@ -157,15 +157,21 @@ const utils = {
   },
 };
 
-StarsDisplay.PropTypes = {
+StarsDisplay.propTypes = {
   count: PropTypes.number
 };
 
-PlayNumber.prototype = {
+PlayNumber.propTypes = {
   status: PropTypes.string,
-  number : PropTypes.number,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  number : PropTypes.number
 };
+
+PlayAgain.propTypes = {
+  gameStatus: PropTypes.string,
+  onClick: PropTypes.func,
+};
+
 
 function App() {
   return (<StarMatch />);
